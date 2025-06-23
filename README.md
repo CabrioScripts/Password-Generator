@@ -11,7 +11,6 @@ Saves passwords to a file and optionally copies them to the clipboard. Colored t
 - Uses uppercase, lowercase, digits, and special characters  
 - Saves passwords to `output.txt`  
 - Optional copy to clipboard via `pyperclip`  
-- Colorful ASCII banner and error messages with `colorama`
 
 ---
 
