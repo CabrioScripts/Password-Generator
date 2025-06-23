@@ -1,40 +1,26 @@
-# Password Generator 
-A simple command-line password generator written in Python. It generates random passwords containing letters, numbers, and special characters, saves them to a file, and optionally copies them to the clipboard.
+# Password Generator
 
-Features
-Generates multiple passwords of customizable length.
+Simple Python script to generate multiple random passwords with customizable length and special characters.  
+Saves passwords to a file and optionally copies them to the clipboard. Colored terminal output included.
 
-Saves generated passwords to output.txt.
+---
 
-Optionally copies passwords to the system clipboard.
+## Features
 
-Colorful ASCII banner with red gradient effects for better UX.
+- Generate any number of passwords with specified length  
+- Uses uppercase, lowercase, digits, and special characters  
+- Saves passwords to `output.txt`  
+- Optional copy to clipboard via `pyperclip`  
+- Colorful ASCII banner and error messages with `colorama`
 
-Input validation with clear error messages.
+---
 
-Requirements
-Python 3.x
+## Requirements
 
-Setup
-Install the required Python modules using the provided setup.bat script:
+- Python 3.6+  
+- Modules: `pyperclip`, `colorama`
 
-bat
-Kopieren
-Bearbeiten
+Install dependencies via:
+
+```bat
 setup.bat
-This will automatically install the necessary packages (colorama and pyperclip).
-
-Usage
-Run the script:
-
-bash
-Kopieren
-Bearbeiten
-python password_generator.py
-Follow the prompts to enter:
-
-Password length (numbers only)
-
-Number of passwords to generate
-
-Passwords are saved automatically to output.txt. You will be asked if you want to copy them to your clipboard.
